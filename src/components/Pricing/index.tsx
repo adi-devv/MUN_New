@@ -24,7 +24,7 @@ const Pricing = () => {
               className={`${
                 isMonthly
                   ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
+                  : "text-dark text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
               Monthly

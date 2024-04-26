@@ -28,14 +28,17 @@ export default function Home() {
 
       <Features />
       <Banner />
-      <Video />
-      {/* <Events /> */}
-      {/* <AboutSectionOne />
+      <br />
+      <br />
+      <br />
+      {/*<Video />
+      <Events />
+      <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
       <Pricing />
-      <Blog /> */}
-      <Contact />
+      <Blog />
+      <Contact /> */}
     </>
   );
 }

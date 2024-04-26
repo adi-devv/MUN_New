@@ -34,8 +34,6 @@ const Hero = () => {
             <div className="w-full px-14">
               <div className="mx-auto max-w-[800px] text-center">
                 <br />
-                <br />
-
                 {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight" style={{fontSize:"35px"}}>
                   VIT Bhopal
                 </h1> */}
@@ -59,7 +57,7 @@ const Hero = () => {
                   <Link
                     href="#Vitbmun"
                     onClick={scrollWithOffset}
-                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 bg-white/10 dark:text-white dark:hover:bg-white/5"
+                    className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 bg-white/10 dark:text-white hover:bg-white/5"
                   >
                     1-3 May
                   </Link>
