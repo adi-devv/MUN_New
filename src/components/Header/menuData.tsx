@@ -3,7 +3,7 @@ const menuData = [
   { title: "About", path: "#features" },
   { title: "Events", path: "#Events" },
   { title: "Our Team", path: "#team" },
-  { title: "Contact", path: "#contact" },
+  { title: "Contact", path: "#footer" },
 ];
 
 export default menuData;
