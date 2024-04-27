@@ -17,12 +17,19 @@ const SectionTitle = ({
         className={`w-full ${center ? "mx-auto text-center" : ""}`}
         style={{ maxWidth: width, marginBottom: mb }}
       >
-        <h2 className="mb-4 text-3xl font-bold !leading-tight text-black sm:text-4xl md:text-[45px]">
+        <h2
+          className="mb-4 text-3xl font-bold !leading-tight text-black sm:text-4xl md:text-[45px]"
+          // style={{ fontFamily: "Roboto" }}
+        >
           {title}
         </h2>
-        <p className="text-base !leading-relaxed text-body-color md:text-lg">
-          {paragraph}
-        </p>
+        {paragraph !== "" ? (
+          <p className="text-base !leading-relaxed text-body-color md:text-lg">
+            {paragraph}
+          </p>
+        ) : (
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+        )}
       </div>
     </>
   );
