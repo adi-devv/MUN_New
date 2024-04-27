@@ -65,10 +65,9 @@ const Header = () => {
       }}
     >
       <div className="container">
-        <div className="relative mx-10 flex items-center justify-between">
+        <div className="relative flex items-center justify-between">
           <div className="w-25 max-w-full px-4 xl:mr-12">
             <Link
-              style={{ marginLeft: "10px" }} // Add margin-left to create space
               href="/"
               className={`header-logo block w-full ${
                 sticky ? "py-5 lg:py-2" : "py-8"
