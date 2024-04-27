@@ -19,7 +19,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] flex justify-center items-center"
         style={{
           backgroundImage: "url('/images/a.jpg')",
           backgroundSize: "cover",
@@ -37,17 +37,11 @@ const Hero = () => {
                 {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight" style={{fontSize:"35px"}}>
                   VIT Bhopal
                 </h1> */}
-                <h1
-                  className="mb-2 text-3xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
-                  style={{ fontSize: "3.8vw" }}
-                >
+                <h1 className="mb-2 text-3xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
                   MODEL UNITED NATIONS
                 </h1>
 
-                <p
-                  className="mb-8 text-base !leading-relaxed text-body-color-dark sm:text-lg md:text-xl"
-                  style={{ fontSize: "2.5vw" }}
-                >
+                <p className="mb-8 text-lg !leading-relaxed text-body-color-dark sm:text-xl md:text-4xl">
                   VIT Bhopal
                 </p>
 

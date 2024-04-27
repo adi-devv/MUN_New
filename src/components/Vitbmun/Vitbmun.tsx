@@ -5,7 +5,7 @@ const Vitbmun = () => {
     <>
       <section
         id="Vitbmun"
-        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="relative z-10 overflow-hidden pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] flex justify-center items-center"
         style={{
           backgroundImage:
             "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/0/05/UN_General_Assembly_hall.jpg')",
@@ -17,7 +17,7 @@ const Vitbmun = () => {
           margin: "0 -2vw",
         }}
       >
-        <div className="container" style={{ marginTop: "-90px" }}>
+        <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-14">
               <div className="mx-auto max-w-[800px] text-center">
