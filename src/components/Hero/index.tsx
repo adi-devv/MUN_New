@@ -37,15 +37,20 @@ const Hero = () => {
                 {/* <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight" style={{fontSize:"35px"}}>
                   VIT Bhopal
                 </h1> */}
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
+                <h1
+                  className="mb-2 text-3xl font-bold leading-tight text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
+                  style={{ fontSize: "3.8vw" }}
+                >
                   MODEL UNITED NATIONS
                 </h1>
+
                 <p
-                  className="mb-12 text-base !leading-relaxe text-body-color-dark sm:text-lg md:text-xl"
-                  style={{ fontSize: "35px" }}
+                  className="mb-8 text-base !leading-relaxed text-body-color-dark sm:text-lg md:text-xl"
+                  style={{ fontSize: "2.5vw" }}
                 >
                   VIT Bhopal
                 </p>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="#Vitbmun"
