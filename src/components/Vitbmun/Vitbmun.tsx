@@ -14,7 +14,7 @@ const Vitbmun = () => {
           backgroundAttachment: "fixed",
           height: "70vh",
           opacity: 1,
-          margin: "0 -4.72rem",
+          margin: "0 -2vw",
         }}
       >
         <div className="container" style={{ marginTop: "-90px" }}>

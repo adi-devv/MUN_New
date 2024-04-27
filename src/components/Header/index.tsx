@@ -68,6 +68,7 @@ const Header = () => {
         <div className="relative mx-10 flex items-center justify-between">
           <div className="w-25 max-w-full px-4 xl:mr-12">
             <Link
+              style={{ marginLeft: "10px" }} // Add margin-left to create space
               href="/"
               className={`header-logo block w-full ${
                 sticky ? "py-5 lg:py-2" : "py-8"
@@ -76,8 +77,8 @@ const Header = () => {
               <Image
                 src="/images/logowhite.png" // Adjusted image path
                 alt="logo"
-                width={65}
-                height={20}
+                width="80"
+                height="10"
                 className="w-full h-auto"
               />
             </Link>
