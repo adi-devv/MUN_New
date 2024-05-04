@@ -23,10 +23,12 @@ const Vitbmun = () => {
               <div className="mx-auto max-w-[800px] text-center">
                 <h1
                   className="mb-0 text-3xl leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
-                  style={{ color: "white" }}
+                  style={{
+                    color: "white",
+                  }}
                 >
-                  <b>VITB</b>MUN{" "}
-                  <span className="gradient-text font-bold">'24</span>
+                  <b>VITB</b>MUN <span className="pink-text font-bold">'</span>
+                  <span className="gradient-text font-bold">24</span>
                 </h1>
 
                 <p
