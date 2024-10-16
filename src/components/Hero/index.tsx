@@ -5,7 +5,7 @@ const scrollWithOffset = (event) => {
   event.preventDefault();
   const targetId = event.target.getAttribute("href").substring(1);
   const targetElement = document.getElementById(targetId);
-  const offset = 79;
+  const offset = 100;
   const targetOffset =
     targetElement.getBoundingClientRect().top + window.scrollY - offset;
   window.scrollTo({
@@ -47,14 +47,14 @@ const Hero = () => {
 
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="#Vitbmun"
+                    href="#munmate"
                     onClick={scrollWithOffset}
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     MUN-MATE
                   </Link>
                   <Link
-                    href="#Vitbmun"
+                    href="#munmate"
                     onClick={scrollWithOffset}
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 bg-white/10 dark:text-white hover:bg-white/5"
                   >

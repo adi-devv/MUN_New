@@ -3,6 +3,7 @@ import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 // import Brands from "../Brands";
 import Vitbmun from "../Vitbmun/Vitbmun";
+import Banner from "@/components/Banner";
 
 const Features = () => {
   return (
@@ -16,7 +17,14 @@ const Features = () => {
             }
             center
           />
+          <Banner />
 
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <Vitbmun />
           <br />
           <br />

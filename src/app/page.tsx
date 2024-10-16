@@ -5,7 +5,6 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 
 import Features from "@/components/Features";
-import Banner from "@/components/Banner";
 // import Events from "@/components/Events";
 import Hero from "@/components/Hero";
 // import Pricing from "@/components/Pricing";
@@ -27,7 +26,6 @@ export default function Home() {
       <Hero />
 
       <Features />
-      <Banner />
       <br />
       <br />
       <br />
