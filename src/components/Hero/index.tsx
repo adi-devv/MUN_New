@@ -49,7 +49,7 @@ const Hero = () => {
                   <Link
                     href="#munmate"
                     onClick={scrollWithOffset}
-                    className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
+                    className="rounded-sm bg-[#A564C9] px-8 py-4 text-base font-semibold text-[#4B0082] duration-300 ease-in-out hover:bg-[#A564C9]/80"
                   >
                     MUN-MATE
                   </Link>

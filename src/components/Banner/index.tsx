@@ -26,8 +26,8 @@ const Banner = () => {
       <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
         <Link
           href="https://docs.google.com/forms/d/e/1FAIpQLSehJgpRVXrI-on1JXyK3drX6uywhcuEbPn48ois8H1cLS7Plg/viewform?usp=sf_link"
-          className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
-          style={{ backgroundColor: "#1E7CFB" }}
+          className="rounded-sm bg-[#A564C9] px-8 py-4 text-base font-semibold text-[#4B0082] duration-300 ease-in-out hover:bg-[#A564C9]/80"
+          style={{ backgroundColor: "#A564C9" }}
         >
           Register Now!
         </Link>
