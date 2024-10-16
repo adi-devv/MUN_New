@@ -51,14 +51,14 @@ const Hero = () => {
                     onClick={scrollWithOffset}
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
-                    VITBMUN 3.0
+                    MUN-MATE
                   </Link>
                   <Link
                     href="#Vitbmun"
                     onClick={scrollWithOffset}
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 bg-white/10 dark:text-white hover:bg-white/5"
                   >
-                    1 - 3 May
+                    16th Oct 24
                   </Link>
                 </div>
               </div>

@@ -23,14 +23,12 @@ const Vitbmun = () => {
               <div className="mx-auto max-w-[800px] text-center">
                 <h1
                   className="mb-0 text-3xl leading-tight text-black dark:text-white sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight"
-                  style={{
-                    color: "white",
-                  }}
+                  style={{ color: "white" }}
                 >
-                  <b>VITB</b>MUN <span className="pink-text font-bold">'</span>
-                  <span className="gradient-text font-bold">24</span>
+                  <b>MUN-</b>MATE{" "}
+                  <span className="gradient-text font-bold">'24</span>
                 </h1>
-
+                {/*
                 <p
                   className="mb-1 text-base !leading-relaxe dark:text-body-color-dark sm:text-lg md:text-xl"
                   style={{
@@ -42,16 +40,16 @@ const Vitbmun = () => {
                 >
                   Third Edition <br />{" "}
                 </p>
-
+                */}
                 <p
                   className="mb-7 text-base !leading-relaxe dark:text-body-color-dark sm:text-lg md:text-xl"
                   style={{ color: "#F0F2F9", fontSize: "25px" }}
                 >
-                  1st - 3rd May
+                  16th October 2024
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="https://forms.gle/q6mcXEzsKCoKQARS8"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSehJgpRVXrI-on1JXyK3drX6uywhcuEbPn48ois8H1cLS7Plg/viewform?usp=sf_link"
                     className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                     style={{ backgroundColor: "#1E7CFB" }}
                   >

@@ -35,16 +35,12 @@
   .gradient-text {
     background-image: linear-gradient(
       to bottom right,
-      rgb(255, 0, 153),
-      rgb(89, 0, 255)
+      rgb(255, 0, 170),
+      rgb(5, 41, 148)
     );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
-  .pink-text {
-    color: rgb(255, 0, 170);
-    /* Pink color */
-  }
 }
-@import url('https://fonts.googleapis.com/css2?family=Josh&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */

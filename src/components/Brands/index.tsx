@@ -9,7 +9,7 @@ const Brands = () => (
       style={{ height: "100px", width: "170px" }}
     >
       <Image
-        src="/images/Banner.png" // contains image for banner from public iamges folder
+        src="/images/Banner.png" // Adjusted image path
         alt=""
         layout="fill"
         objectFit="contain"

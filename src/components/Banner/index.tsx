@@ -9,7 +9,7 @@ const Banner = () => {
           backgroundPosition: "top",
           backgroundSize: "contain", // Adjusted background size
           backgroundRepeat: "no-repeat",
-          height: "40vh", // Adjusted height
+          height: "45vh", // Adjusted height
         }}
       ></section>
     </>
